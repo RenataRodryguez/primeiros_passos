@@ -1,0 +1,5 @@
+a = input('Digite algo:')
+print(f'O valor é do tipo: {type(a)}')
+print(f'O valor tem espaços?, {a.isspace()}')
+print(f'O valor é uma decimal?, {a.isdecimal()}')
+print(f'O valor em letras minusculas?, {a.lower()}')
